@@ -84,6 +84,10 @@
     font-size: 17px;
     margin: 25px 0;
   }
+  #steps .row>.right{
+    float: none;
+    margin: 25px auto;
+  }  
 }
 @media screen and (max-width: 420px) {
   #steps .row h1{
