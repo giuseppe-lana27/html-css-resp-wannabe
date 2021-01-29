@@ -24,15 +24,15 @@
 }
 /* Responsive */
 @media screen and (max-width: 768px) {
+  .row h1{
+    margin-bottom: 30px;
+  }
   .row,
   #lezioni .row>.left,
   #lezioni .row>.right {
     width: 100%;
     font-size: 17px;
     margin-top: 20px;
-  }
-  .row h1{
-    margin-bottom: 30px;
   }
   #lezioni .row>.right{
     margin-bottom: 40px;
@@ -42,15 +42,15 @@
   }
 }
 @media screen and (max-width: 420px) {
+  .row h1{
+    margin-bottom: 30px;
+  }
   .row,
   #lezioni .row>.left,
   #lezioni .row>.right {
     width: 100%;
     font-size: 20px;
     margin-top: 25px;
-  }
-  .row h1{
-    margin-bottom: 30px;
   }
   #lezioni .row>.right{
     margin-bottom: 40px;
@@ -74,30 +74,27 @@
 }
 /* Responsive */
 @media screen and (max-width: 768px) {
+  #steps .row h1{
+    margin: 30px 0;
+  }
   #steps .row>.left,
   #steps .row>.central,
   #steps .row>.right {
     width: 50%;
     font-size: 17px;
-    margin-top: 20px;
-  }
-  #steps .row>.left,
-  #steps .row>.central{
     margin: 25px 0;
-  }
-  #steps .row h1{
-    margin: 30px 0;
   }
 }
 @media screen and (max-width: 420px) {
+  #steps .row h1{
+    margin-bottom: 30px;
+  }
   #steps .row>.left,
   #steps .row>.central,
   #steps .row>.right {
     width: 100%;
     font-size: 20px;
-  }
-  #steps .row h1{
-    margin-bottom: 30px;
+    margin: 25px 0;
   }
 }
 /* /Responsive */
@@ -105,7 +102,6 @@
 #why {
   text-align: center;
 }
-
 #why .row>.first,
 #why .row>.second,
 #why .row>.third {
@@ -118,7 +114,34 @@
   border-radius: 50%;
   padding: 30px
 }
-/
+/* Responsive */
+@media screen and (max-width: 768px) {
+  #why .row h1{
+    margin: 30px 0;
+  }
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    width: 100%;
+    font-size: 17px;
+  }
+  #steps .row>.left,
+  #steps .row>.central{
+    margin: 25px 0;
+  }
+}
+@media screen and (max-width: 420px) {
+    #why .row h1{
+    margin: 35px 0;
+  }
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    width: 100%;
+    font-size: 20px;
+  }
+}
+/* /Responsive */
 /* COMMON */
 .row::after {
   content: '';
