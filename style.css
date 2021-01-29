@@ -117,7 +117,7 @@
 /* Responsive */
 @media screen and (max-width: 768px) {
   #why .row h1{
-    margin: 30px 0;
+    margin: 50px 0;
   }
   #why .row>.first,
   #why .row>.second,
@@ -125,20 +125,25 @@
     width: 100%;
     font-size: 17px;
   }
-  #steps .row>.left,
-  #steps .row>.central{
-    margin: 25px 0;
+  #why .row>.left,
+  #why .row>.central{
+    margin: 30px 0;
   }
 }
 @media screen and (max-width: 420px) {
     #why .row h1{
-    margin: 35px 0;
+    margin: 45px 0;
   }
   #why .row>.first,
   #why .row>.second,
   #why .row>.third {
     width: 100%;
     font-size: 20px;
+  }
+  #why .row>.left,
+  #why .row>.central,
+  #why .row>.third{
+    margin: 30px 0;
   }
 }
 /* /Responsive */
